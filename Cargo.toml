@@ -76,7 +76,7 @@ std = ["alloc"]
 trust_anchor_util = ["std"]
 
 [dependencies]
-ring = { git = "https://github.com/1Password/ring.git", default-features = false }
+ring = { git = "https://github.com/1Password/ring.git", branch = "1p/release-0.16", default-features = false }
 untrusted = "0.7.1"
 
 [dev-dependencies]
